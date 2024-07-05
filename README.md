@@ -1,4 +1,4 @@
-# Codificador de Texto
+# Decodificador de Texto - Challenge Decodificador de Texto - T7 One
 ## Sobre o Projeto
 Este projeto é um codificador e decodificador de texto desenvolvido para transformar mensagens utilizando substituições específicas de caracteres. O objetivo é permitir a conversão de texto claro em uma forma criptografada e vice-versa, utilizando regras predefinidas.
 
