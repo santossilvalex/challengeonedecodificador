@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador de Texto</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+
+<body>
+   <header>
+    <div class="logo">
+      <img src="./img/gengar dança.gif" alt="Pokemon Gengar dançando" width="100px"> 
+    </div>
+   </header>
+
+   <!--Principal-->
+   <main class="container">
+      <section class="esquerda">
+        <form>
+          <textarea id="texto-principal" type="text" placeholder="Digite aqui seu texto"></textarea>
+          <div class="aviso">
+            <img class="alerta-imagem" src="./img/alerta.png" alt="exclamação">
+            <span>Apenas letras minúsculas e sem acento.</span>
+          </div>
+
+            <div class="botoes">
+              <button type="button" class="btn bt-cripto" id="criptografar">Criptografar</button>
+              <button type="button" class="btn bt-descripto" id="descriptografar">Descriptografar</button>
+            </div>
+        </form>
+      </section>
+      <section class="direita">
+        <div class="retorno">
+          <img src="./img/detetive gengar.png" alt="Pokemon Gengar como detetive" width="200px">
+          <h3 class="titulo">Nenhuma mensagem encontrada</h3>
+          <p>Digite aqui um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+        <div class="texto-criptografado d-none">
+          <p></p>
+          <button type="button" class="btn bt-copiar" id="copiar">Copiar</button>
+        </div>
+      </section>
+   </main>
+
+   <!--Rodapé da Pagina-->
+   <footer>
+    <p>&copy; Desenvolvido por Alexsander Santos</p>
+    <p>
+      <a href="https://github.com/santossilvalex">Github</a>|
+      <a href="https://www.linkedin.com/in/alexsantosilva/">Linkedin</a>
+    </p>
+   </footer>
+
+   <script type="module" src="js/app.js"></script>
+</body>
+</html>

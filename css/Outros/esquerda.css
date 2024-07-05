@@ -1,0 +1,15 @@
+.esquerda {
+    width: 50%;
+    height: 590px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-4);
+    border: 2px solid var(--cor-3);
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    z-index: 3;
+}

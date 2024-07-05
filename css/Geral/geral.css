@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "./variaveis.css";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arsenal SC', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: var(--cor-1);
+}
+
+body.hide-scrolling {
+	overflow-y: hidden;
+}
+
+main.container {
+    flex-grow: 1;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}

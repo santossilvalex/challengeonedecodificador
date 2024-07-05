@@ -1,0 +1,64 @@
+.alerta {
+    padding-left: 17px;
+    font-family: var(--fonte-1);
+    font-size: 20px;
+    color: var(--cor-2);
+    opacity: 0.8;
+    margin: 16px 0;
+    display: flex;
+    gap: 6px;
+}
+
+.alerta img {
+    margin-bottom: 10px;
+}
+
+.texto-criptografado p {
+    overflow: auto;
+}
+
+.retorno img {
+    margin: 90px 40px 0 30px;
+}
+
+.retorno {
+    font-family: var(--fonte-3);
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 120%;
+    color: var(--cor-3);
+    padding: 30px;
+}
+
+.retorno p {
+    font-family: var(--fonte-3);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--cor-3);
+}
+
+.texto-criptografado {
+    display: flex;
+    height: 100%;
+    padding-bottom: 30px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-criptografado p {
+    font-family: var(--fonte-3);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+    color: var(--cor-3);
+}
+
+.d-none {
+    display: none;
+    pointer-events: none;
+}
